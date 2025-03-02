@@ -3,7 +3,7 @@ import { fetchMovies } from "../services/api";
 import SearchBar from "../components/SearchBar";
 import MovieCard from "../components/MovieCard";
 import Pagination from "../components/Pagination";
-import FilterDropdown from "../components/FilterDropDown";
+import FilterDropdown from '../components/FilterDropdown';
 
 const Home = () => {
   const [movies, setMovies] = useState([]);
